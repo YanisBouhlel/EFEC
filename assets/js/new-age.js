@@ -1,4 +1,4 @@
-(function() {
+""(function() {
   "use strict"; // Start of use strict
 
   var mainNav = document.querySelector('#mainNav');
@@ -28,12 +28,9 @@
 
       var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
 
-      if (scrollTop > 100) {
+      if (scrollTop > 200) {
         mainNav.classList.add("navbar-shrink");
       }
-        else if  (scrollTop < 100) {
-        mainNav.style.backgroundColor = "#1c3a88"  ;   
-      } 
         else {
 
       }

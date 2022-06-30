@@ -3,7 +3,7 @@
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active {
-  color: #000;
+  color: #f1f1f1;
   border-color: #ffffff;
   background-color: #f1f1f1;
 }
